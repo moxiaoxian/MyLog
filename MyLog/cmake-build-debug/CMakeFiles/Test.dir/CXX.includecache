@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/include/MyLog.h
+iostream
+-
+iomanip
+-
+fstream
+-
+string
+-
+cstdlib
+-
+stdint.h
+-
+ios
+-
+
+E:/C++Project/MyLog/src/main/main.cpp
+iostream
+-
+MyLog.h
+E:/C++Project/MyLog/src/main/MyLog.h
+
+E:/C++Project/MyLog/src/sources/MyLog.cpp
+MyLog.h
+E:/C++Project/MyLog/src/sources/MyLog.h
+ctime
+-
+
